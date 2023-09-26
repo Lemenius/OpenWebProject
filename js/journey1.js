@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('imageContainer').appendChild(stampedImage);
   }
 
-  createStampedImage('https://via.placeholder.com/300', 50, 50);
-  createStampedImage('https://via.placeholder.com/300', 50, -500);
-  createStampedImage('https://via.placeholder.com/300', 50, 500);
+  createStampedImage('https://imgpile.com/images/D9KINP.md.png', 50, 50);
+  createStampedImage('https://imgpile.com/images/D9KINP.md.png', 50, -500);
+  createStampedImage('https://imgpile.com/images/D9KINP.md.png', 50, 500);
 });
