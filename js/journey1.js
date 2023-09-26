@@ -1,4 +1,4 @@
-createStampedImage(src, top, left) {
+function createStampedImage(src, top, left) {
 const stampedImage = document.createElement('img');
 stampedImage.src = src;
 stampedImage.alt = 'Stamped Image';
