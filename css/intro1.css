@@ -1,9 +1,37 @@
-@keyframes stampAnimation {
-    0% { transform: translateY(-50px) rotate(5deg); opacity: 0; }
-    100% { transform: translateY(0) rotate(0deg); opacity: 1; }
-  }
-  
-  .stamped-image {
-    animation: stampAnimation 0.5s ease-out forwards;
-    position: absolute;
-  }
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.button {
+  width: 400px;
+  height: 361px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  z-index: 1;
+  margin-right: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out, width 0.3s ease-in-out, height 0.3s ease-in-out;
+}
+
+.button:last-child {
+  margin-right: 0;
+}
+
+.button:hover {
+  z-index: 0;
+  background-image: url('https://imgpile.com/images/D9x4uw.png');
+  background-size: cover;
+  opacity: 1;
+  width: 450px;
+  height: 406px;
+}
