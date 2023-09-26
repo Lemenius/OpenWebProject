@@ -1,0 +1,9 @@
+@keyframes stampAnimation {
+    0% { transform: translateY(-50px) rotate(5deg); opacity: 0; }
+    100% { transform: translateY(0) rotate(0deg); opacity: 1; }
+  }
+  
+  .stamped-image {
+    animation: stampAnimation 0.5s ease-out forwards;
+    position: absolute;
+  }
