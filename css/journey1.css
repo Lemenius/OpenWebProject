@@ -1,23 +1,29 @@
-@keyframes stampAnimation {
-    0% { transform: translateY(-50px) rotate(5deg); opacity: 0; }
-    100% { transform: translateY(0) rotate(0deg); opacity: 1; }
-  }
 
 @keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-  
-  .stamped-image {
-    animation: stampAnimation 0.5s ease-out forwards;
-    position: absolute;
-  }
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
 
-  .fade-image {
-    animation: fadeIn 0.5s ease-in-out forwards;
-    position: absolute;
+.background-image {
+background-image: url('https://imgpile.com/images/DCfr9l.png'); 
+background-size: cover;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+animation: fadeIn 0.5s ease-out forwards;
+z-index: 0;
+}
+
+@keyframes stampAnimation {
+0% { transform: translateY(-50px) rotate(5deg); opacity: 0; }
+100% { transform: translateY(0) rotate(0deg); opacity: 1; }
+}
+
+.stamped-image {
+animation: stampAnimation 0.5s ease-out forwards;
+position: absolute;
+z-index: 1;
 }
 
