@@ -15,6 +15,10 @@ body {
   margin: 0 10px;
 }
 
+.button-image {
+    position: absolute;
+}
+
 .tab-container {
   display: none;
   padding: 20px;
