@@ -11,4 +11,4 @@ document.getElementById('imageContainer').appendChild(stampedImage);
 // Create three stamped images with different positions and rotations
 createStampedImage("https://via.placeholder.com/300", 0, 100);
 createStampedImage("https://via.placeholder.com/300", 0, 200);
-createStampedImage("https://via.placeholder.com/300", 0, 300);
+createStampedImage("https://via.placeholder.com/300", 300, 300);
