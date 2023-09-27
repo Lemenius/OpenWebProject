@@ -2,39 +2,37 @@
       0% { opacity: 0; }
       100% { opacity: 1; }
     }
-
-    .tab-container {
-      display: none;
-      position: fixed;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      width: 80%;
-      max-width: 600px;
-      height: 70%;
-      max-height: 400px;
-      background-color: white;
-      overflow-y: auto;
-      padding: 20px;
-    }
-
-    .tab-content {
-      padding: 20px;
-    }
-
-.button-image {
-  background: none;
-    padding: 0;
-  border: none;
-  cursor: pointer;
-    animation: stampAnimation 0.5s ease-out forwards
+body {
+  font-family: Arial, sans-serif;
 }
 
-.button-image img {
-  width: 100%;
-  height: auto;
+.button-container {
+  text-align: center;
+  margin-top: 20px;
 }
 
+.button-container button {
+  margin: 0 10px;
+}
+
+.tab-container {
+  display: none;
+  padding: 20px;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.tab-content {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+/* Show the first tab by default */
+#tab1 {
+  display: block;
+}
     .background-image1 {
       background-image: url('https://imgpile.com/images/DxqWSF.png');
       background-size: cover;
