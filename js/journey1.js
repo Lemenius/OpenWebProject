@@ -1,11 +1,8 @@
 function toggleTab(tabId) {
-  const tabs = document.querySelectorAll('.tab-container');
-  tabs.forEach(tab => {
+  const tab = document.getElementById(tabId);
+  if (tab.style.display === 'none' || tab.style.display === '') {
+    tab.style.display = 'block';
+  } else {
     tab.style.display = 'none';
-  });
-
-  const selectedTab = document.getElementById(tabId);
-  if (selectedTab) {
-    selectedTab.style.display = 'block';
   }
 }
