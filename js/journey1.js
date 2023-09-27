@@ -1,16 +1,11 @@
-function createImageButton(src, top, left) {
-  const button = document.createElement('button');
-  button.classList.add('button-image');
-  const img = document.createElement('img');
-  img.src = src;
-  img.alt = 'Button Image';
-  button.appendChild(img);
-  button.style.position = 'absolute';
-  button.style.top = `${top}px`;
-  button.style.left = `${left}px`;
-  document.body.appendChild(button);
-}
+function toggleTab(tabId) {
+  const tabs = document.querySelectorAll('.tab-container');
+  tabs.forEach(tab => {
+    tab.style.display = 'none';
+  });
 
-createImageButton('image1.jpg', -75, -400);
-createImageButton('image2.jpg', -200, 200);
-createImageButton('https://imgpile.com/images/DxLOnN.png', -400, 800);
+  const selectedTab = document.getElementById(tabId);
+  if (selectedTab) {
+    selectedTab.style.display = 'block';
+  }
+}
