@@ -1,4 +1,7 @@
  function createStampedImage(src, top, left, tabId) {
+    const container = document.createElement('div');
+    container.classList.add('image-container');
+
     const stampedImage = document.createElement('img');
     stampedImage.src = src;
     stampedImage.alt = 'Stamped Image';
@@ -13,9 +16,11 @@
       toggleTab(tabId);
     };
 
-    const container = document.getElementById('imageContainer');
     container.appendChild(stampedImage);
     container.appendChild(button);
+
+    const imageContainer = document.getElementById('imageContainer');
+    imageContainer.appendChild(container);
   }
 
   createStampedImage('https://via.placeholder.com/300', -75, -400, 'tab1');
