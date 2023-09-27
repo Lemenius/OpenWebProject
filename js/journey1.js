@@ -2,7 +2,7 @@ function createImageButton(src, alt, width, height, top, left) {
   const imageButton = document.createElement('img');
   imageButton.src = src;
   imageButton.alt = alt;
-  imageButton.classList.add('buttonClass');
+  imageButton.classList.add('button-image');
   imageButton.width = width;
   imageButton.height = height;
   imageButton.style.position = 'absolute';
