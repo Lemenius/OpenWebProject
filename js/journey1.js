@@ -9,6 +9,6 @@ document.getElementById('imageContainer').appendChild(stampedImage);
 }
 
 // Create three stamped images with different positions and rotations
-createStampedImage("https://via.placeholder.com/300", -25, -400);
-createStampedImage("https://via.placeholder.com/300", -175, 200);
-createStampedImage("https://via.placeholder.com/300", -350, 800);
+createStampedImage("https://via.placeholder.com/300", -75, -400);
+createStampedImage("https://via.placeholder.com/300", -200, 200);
+createStampedImage("https://via.placeholder.com/300", -400, 800);
