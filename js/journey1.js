@@ -1,16 +1,16 @@
-function createImageButton(src, alt, width, height, top, left) {
-  const imageButton = document.createElement('img');
-  imageButton.src = src;
-  imageButton.alt = alt;
-  imageButton.classList.add('button-image');
-  imageButton.width = width;
-  imageButton.height = height;
-  imageButton.style.position = 'absolute';
-  imageButton.style.top = `${top}px`;
-  imageButton.style.left = `${left}px`;
-  document.body.appendChild(imageButton);
+function createImageButton(src, top, left) {
+  const button = document.createElement('button');
+  button.classList.add('button-image');
+  const img = document.createElement('img');
+  img.src = src;
+  img.alt = 'Button Image';
+  button.appendChild(img);
+  button.style.position = 'absolute';
+  button.style.top = `${top}px`;
+  button.style.left = `${left}px`;
+  document.body.appendChild(button);
 }
 
-createImageButton('path_to_your_image1.jpg', 'Image Button', 100, 50, -75, -400);
-createImageButton('path_to_your_image2.jpg', 'Image Button', 100, 50, -200, 200);
-createImageButton('https://imgpile.com/images/DxLOnN.png', 'Image Button', 100, 50, -400, 800);
+createImageButton('image1.jpg', -75, -400);
+createImageButton('image2.jpg', -200, 200);
+createImageButton('https://imgpile.com/images/DxLOnN.png', -400, 800);
