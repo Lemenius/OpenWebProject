@@ -55,7 +55,7 @@ body {
     animation: fadeIn 0.5s ease-out, unrollAnimation 1s ease-out forwards;
 }
 .tab-content {
-  padding: 100px 20px; /* Adjust padding to control distance from top */
+  padding: 100px 0px; /* Adjust padding to control distance from top */
   max-width: 100%;
   width: 80%;
   height: 280px;
