@@ -42,10 +42,10 @@ body {
 }
 .tab-content {
   background-image: url('https://imgpile.com/images/DxF2ix.png'); 
-  background-size: cover;
+  background-size: 100% 100%;
   padding: 20px;
-  max-height: auto;
-    max-width: auto;
+  max-height: 100%;
+    max-width: 100%;
   overflow-y: auto; 
 }
 
