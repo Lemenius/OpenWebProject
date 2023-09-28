@@ -22,12 +22,12 @@ body {
 
 .tab-container {
   display: none;
+    position: absolute;
   padding: 20px;
   margin-top: 20px;
   border: 1px solid #ccc;
   max-height: 200px;
   overflow-y: auto;
-    display: none;
 }
 
 .tab-content {
