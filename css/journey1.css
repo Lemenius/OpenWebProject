@@ -38,13 +38,11 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
       width: 1167px;
-  height: 555px;
 }
 .tab-content {
   background-image: url('https://imgpile.com/images/DxF2ix.png'); 
   background-size: cover;
   padding: 20px;
-  max-height: 100%;
     max-width: 100%;
 }
 
@@ -70,7 +68,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  animation: fadeIn 0.5s ease-out forwards;
+  animation: fadeIn 4s ease-out forwards;
   z-index: -1; 
 }
 
