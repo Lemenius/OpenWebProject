@@ -55,8 +55,6 @@ body {
     animation: fadeIn 0.5s ease-out, unrollAnimation 1s ease-out forwards;
 }
 .tab-content {
-     background: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 30%);
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 30%, rgba(255, 255, 255, 0));
   padding: 100px 0px; /* Adjust padding to control distance from top */
   max-width: 70%;
   width: 70%;
