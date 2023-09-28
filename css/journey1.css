@@ -56,8 +56,8 @@ body {
 }
 .tab-content {
   padding: 100px 0px; /* Adjust padding to control distance from top */
-  max-width: 100%;
-  width: 60%;
+  max-width: 70%;
+  width: 70%;
   height: 250px;
   margin: 100px auto 0 auto; /* Adjust margin to control distance from top */
   display: flex;
@@ -65,15 +65,13 @@ body {
   align-items: center;
   text-align: left;
   overflow-y: auto;
-    scrollbar-width: thin;
-    scrollbar-gutter: thin;
     animation: fadeIn 0.5s ease-out, unrollAnimation 1s ease-out forwards;
 }
 
 .tab-content p {
-  max-width: 60%;
-    max-height: 70%;
-  margin: 50 auto; 
+  max-width: 70%;
+    max-height: 60%;
+  margin: 0 auto; 
 }
 
 .tab-content::-webkit-scrollbar-track {
