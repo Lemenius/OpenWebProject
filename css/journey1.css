@@ -73,7 +73,7 @@ body {
 .tab-content p {
   max-width: 60%;
     max-height: 70%;
-  margin: 0 auto; 
+  margin: 50 auto; 
 }
 
 .tab-content::-webkit-scrollbar-track {
