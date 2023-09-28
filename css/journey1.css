@@ -24,14 +24,17 @@ body {
 
 .button-image:nth-child(1) {
   animation: stampAnimation 0.5s ease-out 5s;
+    opacity: 1;
 }
 
 .button-image:nth-child(2) {
   animation: stampAnimation 0.5s ease-out 10s;
+     opacity: 1;
 }
 
 .button-image:nth-child(3) {
-  animation: stampAnimation 0.5s ease-out 15s; 
+  animation: stampAnimation 0.5s ease-out 15s;
+     opacity: 1;
 }
 
 .tab-container {
