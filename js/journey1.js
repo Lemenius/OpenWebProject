@@ -16,18 +16,3 @@ function toggleTab(tabId) {
     tab.style.display = 'none';
     currentTab = null;
   }
-}
-  function applyFadingEffect() {
-  const content = document.getElementById('tab-content');
-
-  // Calculate the height of the fading effect (in pixels)
-  const fadeHeight = 500;
-
-  // Apply fading effect to the top and bottom edges
-  content.style.paddingTop = fadeHeight + '100px';
-  content.style.paddingBottom = fadeHeight + '100px';
-}
-
-// Apply the fading effect when the window is loaded or resized
-window.addEventListener('load', applyFadingEffect);
-window.addEventListener('resize', applyFadingEffect);
