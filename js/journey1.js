@@ -21,7 +21,7 @@ function toggleTab(tabId) {
   const content = document.getElementById('tab-content');
 
   // Calculate the height of the fading effect (in pixels)
-  const fadeHeight = 40;
+  const fadeHeight = 200;
 
   // Apply fading effect to the top and bottom edges
   content.style.paddingTop = fadeHeight + 'px';
