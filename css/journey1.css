@@ -24,17 +24,14 @@ body {
 
 .button-image:nth-child(1) {
   animation: stampAnimation 0.5s ease-out 5s;
-    opacity: 1;
 }
 
 .button-image:nth-child(2) {
   animation: stampAnimation 0.5s ease-out 10s;
-     opacity: 1;
 }
 
 .button-image:nth-child(3) {
   animation: stampAnimation 0.5s ease-out 15s;
-     opacity: 1;
 }
 
 .tab-container {
@@ -82,16 +79,16 @@ body {
   0% { opacity: 1;
     transform: translateY(-10px) rotate(-5deg) scale(1);
   }
-  25% {
+  25% { opacity: 1;
     transform: translateY(0) rotate(2deg) scale(1.05);
   }
-  50% {
+  50% { opacity: 1;
     transform: translateY(-5px) rotate(-1deg) scale(0.95);
   }
-  75% {
+  75% { opacity: 1;
     transform: translateY(0) rotate(1deg) scale(1.02);
   }
-  100% {
+  100% { opacity: 1;
     transform: translateY(-2px) rotate(0deg) scale(1);
   }
 }
