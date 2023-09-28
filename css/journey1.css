@@ -58,19 +58,19 @@ body {
 }
 .tab-content {
     font-family: Mynerve, Gaegu, Arial, sans-serif;
-  padding: 100px 0px; /* Adjust padding to control distance from top */
+  padding: 100px 0px; 
   max-width: 70%;
   width: 70%;
   height: 250px;
-  margin: 130px auto 0 auto; /* Adjust margin to control distance from top */
+  margin: 130px auto 0 auto; 
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: left;
   overflow-y: auto;
-      scrollbar-width: thin; /* Make the scrollbar as narrow as possible */
-  scrollbar-color: transparent transparent; /* Set the scrollbar color to transparent */
-  scrollbar-track-color: transparent; /* Hide the scrollbar track */
+      scrollbar-width: thin; 
+  scrollbar-color: transparent transparent; 
+  scrollbar-track-color: transparent; 
     animation: fadeIn 0.5s ease-out, unrollAnimation 1s ease-out forwards;
 }
 
@@ -96,7 +96,7 @@ body {
     }
 
 .background-image2 {
-  background-color: #b67e45; 
+  background-color: #f0d77f; 
   position: fixed;
   top: 0;
   left: 0;
