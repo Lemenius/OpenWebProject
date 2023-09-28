@@ -16,3 +16,4 @@ function toggleTab(tabId) {
     tab.style.display = 'none';
     currentTab = null;
   }
+}
