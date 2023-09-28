@@ -42,7 +42,8 @@ body {
 }
 .tab-container {
     background-image: url('https://imgpile.com/images/DxF2ix.png');
-     background-size: cover;
+     background-size: contain;
+    background-attachment: fixed;
   position: absolute;
   top: 200px;
   left: 50%;
@@ -58,7 +59,7 @@ body {
   padding: 100px 20px; /* Adjust padding to control distance from top */
   max-width: 100%;
   width: 80%;
-  height: 300px;
+  height: 280px;
   margin: 100px auto 0 auto; /* Adjust margin to control distance from top */
   display: flex;
   flex-direction: column;
