@@ -46,11 +46,11 @@ body {
     transform: translate(-50%, -50%);
 }
 .tab-content {
-  padding: 0px;
+  padding: 100px 20px; /* Adjust padding to control distance from top */
   max-width: 100%;
   width: 80%;
   height: 300px;
-  margin: auto
+  margin: 100px auto 0 auto; /* Adjust margin to control distance from top */
   display: flex;
   flex-direction: column;
   align-items: center;
