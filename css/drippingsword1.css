@@ -1,0 +1,158 @@
+body {
+margin: 0;
+height: 100vh;
+background-color: #f0f0f0;
+display: fixed;
+justify-content: center;
+align-items: center;
+overflow: hidden;
+}
+.box {
+position: absolute;
+display: block;
+top: -600%;
+left: 1%;
+width: 80%;
+height: 500%;
+background: none;
+filter: url("#goo");
+}
+
+.sword {
+position: absolute;
+width: 5%;
+height: 100%;
+left: 50%;
+top: 18%;
+background: linear-gradient(130deg, #7b0e0e 10%, #7b0e0e 20%, #d2d2d2 35%);
+border-radius: 100% 1% 1%;
+transform: rotate(230deg);
+z-index: 0;
+}
+
+.line-1 {
+position: absolute;
+width: 250%;
+height: 1%;
+left: -80%;
+top: 99%;
+background: #c2994c;
+border-top-left-radius: 40%;
+border-top-right-radius: 40%;
+border-bottom-left-radius: 10%;
+border-bottom-right-radius: 10%;
+z-index: 1;
+}
+.drip {
+width: 10px;
+height: 10px;
+margin: auto;
+position: absolute;
+top: 91%;
+left: 15%;
+}
+.drip:before {
+position: absolute;
+left: 0%;
+top: 0%;
+content: "";
+width: 100%;
+height: 100%;
+background-color: #7b0e0e;
+border-radius: 1% 100% 100% 100%;
+transform: rotate(45deg);
+opacity: 0;
+animation: drip 5s ease infinite;
+}
+.drip:after {
+box-sizing: border-box;
+position: absolute;
+top: 0%;
+left: 0%;
+content: "";
+width: 0px;
+height: 0px;
+border: solid 2px #7b0e0e;
+border-radius: 50%;
+opacity: 0;
+animation: splash 5s ease infinite;
+}
+@keyframes drip {
+5% {
+top: 0;
+opacity: 1;
+animation-timing-function: cubic-bezier(0.24, 0, 0.76, 0.14);
+}
+
+25% {
+opacity: 1;
+top: 46vh;
+animation-timing-function: ease-out;
+width: 100%;
+height: 100%;
+left: -30%;
+}
+30% {
+opacity: 1;
+top: 42vh;
+width: 100%;
+height: 100%;
+animation-timing-function: ease-in;
+left: -30%;
+}
+33% {
+top: 46vh;
+opacity: 0;
+animation-timing-function: ease-out;
+left: -30%;
+}
+33.001% {
+opacity: 0;
+}
+100% {
+opacity: 0;
+}
+}
+@keyframes splash {
+0% {
+opacity: 0;
+}
+25% {
+top: 44vh;
+left: -30%;
+opacity: 0;
+width: 0px;
+height: 0px;
+transform: translate(-50%, -50%);
+}
+25.001% {
+opacity: 1;
+}
+33% {
+top: 44vh;
+left: -30%;
+opacity: 0;
+width: 300px;
+height: 300px;
+transform: translate(-50%, -50%);
+}
+33.001% {
+top: 44vh;
+left: -30%;
+opacity: 1;
+width: 100px;
+height: 100px;
+transform: translate(-50%, -50%);
+}
+43% {
+top: 44vh;
+left: -30%;
+opacity: 0;
+width: 150px;
+height: 150px;
+transform: translate(-50%, -50%);
+}
+43.001% {
+opacity: 0;
+}
+}
