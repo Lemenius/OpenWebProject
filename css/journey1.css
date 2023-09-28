@@ -74,10 +74,6 @@ body {
   margin: 0 auto; 
 }
 
-.tab-content::-webkit-scrollbar {
-  display: none;
-}
-
 #tab1 {
   display: block;
 }
