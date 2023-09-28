@@ -4,7 +4,7 @@ tabContainers.forEach(tab => {
   tab.style.display = 'none';
 });
 
-const tabContent = document.getElementById('tabContent');
+const tabContent = document.getElementById('.tab-content');
 tabContent.style.overflow = 'hidden';  
 
 function toggleTab(tabId) {
