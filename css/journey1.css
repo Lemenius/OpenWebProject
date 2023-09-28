@@ -52,7 +52,7 @@ body {
   justify-content: center;
   align-items: center;
     transform: translate(-50%, -50%);
-    animation: unrollAnimation 1s ease-out forwards;
+    animation: fadeIn 0.5s ease-out, unrollAnimation 1s ease-out forwards;
 }
 .tab-content {
   padding: 100px 20px; /* Adjust padding to control distance from top */
@@ -66,7 +66,7 @@ body {
   justify-content: center;
   text-align: center;
   overflow-y: auto;
-    animation: unrollAnimation 1s ease-out forwards;
+    animation: fadeIn 0.5s ease-out, unrollAnimation 1s ease-out forwards;
 }
 
 .tab-content p {
