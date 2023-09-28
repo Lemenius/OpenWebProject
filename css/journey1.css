@@ -35,9 +35,9 @@ body {
 .tab-container {
   position: absolute;
   top: 300px;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  left: 0px;
       width: 1167px;
+    height: 555px;
 }
 .tab-content {
   background-image: url('https://imgpile.com/images/DxF2ix.png'); 
