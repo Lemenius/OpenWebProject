@@ -40,6 +40,15 @@ body {
 .button-image:nth-child(3) {
   animation: stampAnimation 0.5s ease-out 15s forwards;
 }
+.tab-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
 .tab-container {
     background-image: url('https://imgpile.com/images/DxF2ix.png');
      background-size: cover;
