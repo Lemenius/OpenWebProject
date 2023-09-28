@@ -45,18 +45,23 @@ body {
   align-items: center;
     transform: translate(-50%, -50%);
 }
-
 .tab-content {
   padding: 0px;
   max-width: 100%;
   width: 80%;
   height: 300px;
+  margin: auto
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-    overflow-y: auto;
+  overflow-y: auto;
+}
+
+.tab-content p {
+  max-width: 80%; 
+  margin: 0 auto; 
 }
 
 .tab-content::-webkit-scrollbar {
