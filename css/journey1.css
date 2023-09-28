@@ -42,7 +42,7 @@ body {
 }
 .tab-content {
   background-image: url('https://imgpile.com/images/DxF2ix.png'); 
-  background-size: 100% 100%;
+  background-size: cover;
   padding: 20px;
   max-height: 100%;
     max-width: 100%;
@@ -59,7 +59,7 @@ body {
       left: 0;
       width: 100%;
       height: 100%;
-      animation: fadeIn 2s ease-out forwards;
+      animation: fadeIn 4s ease-out forwards;
       z-index: 0; /
     }
 
