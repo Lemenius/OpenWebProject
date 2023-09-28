@@ -66,6 +66,7 @@ body {
   justify-content: center;
   text-align: center;
   overflow-y: auto;
+    scrollbar-width: thin;
     animation: fadeIn 0.5s ease-out, unrollAnimation 1s ease-out forwards;
 }
 
