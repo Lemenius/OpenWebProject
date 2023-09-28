@@ -42,8 +42,7 @@ body {
 }
 .tab-container {
     background-image: url('https://imgpile.com/images/DxF2ix.png');
-     background-size: contain;
-    background-attachment: fixed;
+     background-size: cover;
   position: absolute;
   top: 200px;
   left: 50%;
