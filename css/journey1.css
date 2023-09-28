@@ -55,11 +55,11 @@ body {
     animation: fadeIn 0.5s ease-out, unrollAnimation 1s ease-out forwards;
 }
 .tab-content {
-  padding: 130px 0px; /* Adjust padding to control distance from top */
+  padding: 100px 0px; /* Adjust padding to control distance from top */
   max-width: 70%;
   width: 70%;
   height: 250px;
-  margin: 100px auto 0 auto; /* Adjust margin to control distance from top */
+  margin: 80px auto 0 auto; /* Adjust margin to control distance from top */
   display: flex;
   flex-direction: column;
   align-items: center;
