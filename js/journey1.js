@@ -9,7 +9,7 @@ function toggleTab(tabId) {
     currentTab.style.display = 'none';
   }
   if (tab.style.display === 'none' || tab.style.display === '') {
-    tab.style.display = 'block';
+    tab.style.display = 'inline-block';
     currentTab = tab;
   } else {
     tab.style.display = 'none';
