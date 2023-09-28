@@ -55,6 +55,7 @@ body {
     animation: fadeIn 0.5s ease-out, unrollAnimation 1s ease-out forwards;
 }
 .tab-content {
+    font-family: "Mynerve, Gaegu, Arial", sans-serif;
   padding: 100px 0px; /* Adjust padding to control distance from top */
   max-width: 70%;
   width: 70%;
