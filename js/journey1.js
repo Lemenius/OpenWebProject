@@ -3,6 +3,10 @@ const tabContainers = document.querySelectorAll('.tab-container');
 tabContainers.forEach(tab => {
   tab.style.display = 'none';
 });
+
+const tabContent = document.getElementById('tabContent');
+tabContent.style.overflow = 'hidden';  
+
 function toggleTab(tabId) {
   const tab = document.getElementById(tabId);
   if (currentTab && currentTab !== tab) {
