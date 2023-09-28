@@ -34,7 +34,7 @@ body {
 }
 .tab-container {
   position: absolute;
-  top: 80%;
+  top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
       width: auto;
@@ -50,7 +50,7 @@ body {
 }
 
 #tab1 {
-  display: block;
+  display: inline-block;
 }
     .background-image1 {
       background-image: url('https://imgpile.com/images/DxBKFx.png');
