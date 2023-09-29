@@ -10,12 +10,13 @@ overflow: hidden;
 .box {
 position: absolute;
 display: block;
-top: -100%;
+top: 1%;
 left: 1%;
 width: 80%;
 height: 500%;
 background: none;
 filter: url("#goo");
+  transform: translate(-50%, -50%);
 }
 
 .sword {
