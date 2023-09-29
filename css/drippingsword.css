@@ -10,7 +10,7 @@ overflow: hidden;
 .box {
 position: absolute;
 display: block;
-top: -600%;
+top: -100%;
 left: 1%;
 width: 80%;
 height: 500%;
