@@ -10,10 +10,10 @@ overflow: hidden;
 .box {
 position: absolute;
 display: block;
-top: -100%;
+top: 50%;
 left: 40%;
-width: 80%;
-height: 500%;
+width: 10%;
+height: 100%;
 background: none;
 filter: url("#goo");
   transform: translate(-50%, -50%);
